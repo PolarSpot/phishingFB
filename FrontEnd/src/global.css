@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --red: #ff392e;
+    --green:#00b37e;
+    --gray-light:#e1e1e6;
+    --color-bg: #1e1e1e;
+    --gray-dark:#8d8d99;
+    --color-dark:#202024;
+    --color-line:#323238;
+    --color-deep: #1a1924;
+    --color-deeper: #16151e;
+
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+body, input, textarea, button {
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+}

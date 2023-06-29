@@ -1,0 +1,177 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.left {
+    flex: 1;
+    width: 600px;
+    margin-right: 50px;
+    padding: 0px 32px 0 0;
+}
+
+.left > img {
+    margin-left: -34px;
+    height: 106px;
+    width: 301px;
+}
+
+.textInfo {
+    margin-top: -10px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+}
+
+.right {
+    flex: 1;
+}
+
+.loginBox {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 100px;
+}
+
+.loginForm {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.email {
+    padding: 14px 16px;
+    height: 52px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    outline: none;
+    width: 320px;
+    font-size: 17px;
+    color: #1d2129;
+}
+
+.pass {
+    padding: 14px 16px;
+    height: 52px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    outline: none;
+    width: 320px;
+    font-size: 17px;
+    color: #1d2129;
+    margin-left: -10px;
+}
+
+.senhaBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.eye {
+    margin-left: -30px;
+    border-radius: 80px;
+    padding: 3px 3px 0px 3px;
+}
+
+.eye:hover {
+    background-color: #f2f2f2;
+}
+
+.eye:active{
+    background-color: #d9d9d9;
+}
+
+.btnEnter{
+    background-color: #1877f2;
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 320px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .2s;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.btnEnter:hover {
+    background-color: #166fe5;
+}
+
+.esqueceu {
+    color: #1877f2;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+
+.esqueceu:hover {
+    text-decoration: underline;
+}
+
+
+.line {
+    width: 100%;
+    border: 1px solid #f0f0f0;
+}
+
+.btnCriar{
+    background-color: #42b72a;
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .2s;
+    width: auto;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btnCriar:hover {
+    background-color: #36a420;
+}
+
+.footerArea {
+    margin-top: 25px;
+    width: 390px;
+    margin-left: -20px;
+    text-align: center;
+}
+
+.footerLink {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+}
+
+.footerText {
+    color: black;
+    text-align: center;
+}
